@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>www.Tech Tution.in</title>
+    <link rel="stylesheet" href="styles/default.css" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/menu.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+        });  
+
+    </script>
+</head>
+<body>
+    <div id="wraper">
+        <div class="page">
+            <div class="header">
+                <div id="timeDiv">
+                    <img src="images/title.jpg" alt="www.techtution.com" /><a name="pageTop"></a>
+                </div>
+            </div>
+            <div id="menudiv">
+                <ul id="menu">
+                    <li><span><a href="index.html" title="Home">HOME</a></span></li>
+                    <li><span><a href="jquery.html" title="About Jquery">JQUERY</a></span></li>
+                    <li><span><a href="samples.html" title="Jquery and html samples">SAMPLES</a></span></li>
+                    <li><span><a href="downloads.html" title="Downloads">DOWNLOADS</a></span></li>
+                    <li><span><a href="tips.html" title="Jquery tricks">TIPS & TRICKS</a></span></li>
+                    <li><span><a href="htmlcss.html" title="Html with CSS">HTML & CSS</a></span></li>
+                    <li><span><a href="interview.html" title="Interview Qustions">QUESTIONS</a></span></li>
+                    <li><span><a href="contact.html" title="Contact us">CONTACT US</a></span></li>
+                </ul>
+            </div>
+            <div style="width: 100%; border-top: 1px solid #ccccc;">
+                <div class="pagecontent">                    
+                    <h2>
+                        What is jQuery?</h2>
+                    <p>
+                        JQuery is javascript only but it made programming easy to use functions and methods
+                        to make rich applications.These functions are very easy to learn and even a designer
+                        can learn it fast. Due to these features jQuery is very popular and in high demand
+                        among the developers. jQuery is great library for developing ajax based application.jQuery
+                        is a library that makes it quicker and easier to build JavaScript webpages and web
+                        apps. Often with jQuery you can write a single line of code to achieve what would
+                        have taken 10-20 lines of regular JavaScript code.
+                    </p>
+                    <p>
+                        jQuery is itself written in JavaScript, and comes in the form of a single .js file
+                        that you link to from your webpage. Your JavaScript code then accesses the library
+                        by calling various jQuery functions.
+                    </p>
+                    <h2>
+                        How to use jQuery?</h2>
+                    <p>
+                        First download jQuery library from any website. You can download it for free, so
+                        many websites are providing it. You can dowload it here from downloads section.Once
+                        you download and place it in project, call the js file in to page.Now it is ready
+                        to use, you can write jquery code in your page.For example see the fallowing code.
+                    </p>
+                    <pre style="background: none;">
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;/title&gt;
+        &lt;script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+            $(document).ready(function () {
+            // write your code here..
+            });
+        &lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+                        </pre>
+                    <h2>
+                        Why jQuery?</h2>
+                    <p>
+                        * The main feture of jquery is it accomplish your work with less code.<br />
+                        * Jquery is flatform independent.<br />
+                        * We can use with any language like asp.net, jsp, php, asp and CGI.
+                        <br />
+                        * Wide range of plugins.<br />
+                        * asp.net supports code debug.<br/>
+						* AJAX Capabilities.
+                    </p>
+                    <h2>
+                        What are the Advantages of jQuery?</h2>
+                    <p>
+						* Easy to use and learn.<br/>
+                        * Light wait - jQuery is very light weight.It loads fast and also avilable in minified
+                        version.<br />
+                        * css3 compliant -
+                        <br />
+                        * Cross browser support - jQuery supports all major browers like IE, Firefox, Chrome
+                        and Safari.
+                        <br />
+                        * Wide range of plugins - Large development community and many plugins like light
+                        box, calendar etc.<br />
+                        * It's very small, especially when minified, and offers a lot in the core library.
+                        * File size is very small.
+                    </p>
+                    <h2>
+                        Where can we use jQuery?</h2>
+                    <p>
+                        * Whenever aynchronous call requires.<br />
+                        * When client side script needs.
+                        <br />
+                        * Validations.
+                        <br />
+                        * UI design including animations.<br />
+                        * Variety kind of flugin's.
+                    </p>
+                    <h2>
+                        What is document.ready()?</h2>
+                    <p>
+                        Jquery code runs whenever page loads. Here code will execute once document is ready,
+                        it will not wait untill download all the images on document. We can write more than
+                        one document.ready function in same web page. You can place whatever code you want
+                        execute on document is ready.
+                    </p>
+                    <h2>
+                        What are selectors?</h2>
+                    <p>
+                        Selector means selecting an element where to apply the changes. Jquery works on
+                        selectos only. We can select an element in sevaral ways.
+                        <ul class="text">
+                            <li>Using ID.</li>
+                            <li>Using element name.</li>
+                            <li>Using HTML element.</li>
+                            <li>Using class.</li>
+                            <li>Combination above all ways.</li>
+                        </ul>
+                        <br />
+                        <p>
+                            <strong>Examples:</strong>
+                            <br />
+                            $("#pageContent") <i>:"<strong>#</strong>" used to select an element based on it's ID. Here
+                                we are accessing an element which has pageContent as ID.</i>
+                            <br />
+                            $("div") or $("p")..etc <i>:To select directly a HTML element. It selects all div or
+                                p elements in the document.</i>
+                            <br />
+                            $(".page") <i>: To select an element using class name.</i>
+                            <br />
+                            $("div .page") <i>: To select a div element which has class name "page".</i>
+                            <br />
+                            $("#pageContent .page") <i>: To select an element with id (id is unique, so it selects one element from page) which has class name "page".</i>
+                        </p>
+                    </p>
+                    <h2>
+                        Syntax of jquery?</h2>
+                    <p>
+                        <strong>Basic syntax is:</strong> $(selector).action();<br />
+                        <br />
+                        * A $ sign to define/access jQuery - $ - equalent to Jquery ( to reduce the code
+                        will use $ instead of Jquery keyword).<br />
+                        * A (selector) to "query (or find)" HTML elements.<br />
+                        * A jQuery action() to be performed on the element(s).
+                        <br />
+                        <br />
+                        Examples: $(this).hide() - hides the current element.
+                        <br />
+                        $("div").hide() - hides all div elements in the document.<br />
+                        $(".header").hide() - hides all elements which are has class name as "header".<br />
+                        $("#content").hide()- hides the element with id="content".
+                    </p>
+                    <h2>Hello world Sample code in HTML</h2>
+                    <pre>
+  &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;some name&lt;
+        &lt;script type="text/javascript" src="js/jqueryCodefile.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+            $(document).ready(function(){
+                document.write("Hello world!"); <i>// To write on webpage directly.</i>
+                alert("Hello world!"); <i>// To display in alert(pop up). </i>
+            });
+        &lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        //Web page content.......
+    &lt;/body&gt;
+&lt;/html&gt;
+                    </pre>
+					<h2>What is $?</h2>
+					<p>Dollar Sign is nothing but it's an alias for JQuery. Take a look at below jQuery code.</p>
+					<pre>
+    jQuery(document).ready(function(){
+    });					
+	
+	Here both are same, $ - Alice name for jQuery 
+	
+    $(document).ready(function(){
+    });
+					</pre>
+                </div>
+            </div>
+            <div class="footer">
+                <div>
+                    <p>
+                        <a>Jquery plugin's</a>, <a>Jquery tutorials</a>, <a>Ajax samples</a>, <a>Google apps</a>,
+                        <a>SEO tips</a>, <a>HTML samples</a>, <a>CSS3</a>, <a>Regular expressions for Jquery</a>,
+                        <a>Web templates</a>
+                    </p>
+                </div>
+                <div style="float: right;">
+                    <p>
+                        &copy; 2013 <a href="#" title="www.techtution.in">www.techtution.in</a> All rights
+                        reserved.<br />
+                        To Advertise Here: contact at +91-9743456222<br />
+                        or Mail to: <a href="mailto:admin@techtution.in">admin@techtution.in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topbutton" title="Top">
+        <a href="#pageTop">
+            <img src="images/top.png" alt="TOP" /></a></div>
+</body>
+</html>

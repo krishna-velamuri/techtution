@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>www.Tech Tution.in</title>
+    <link rel="stylesheet" href="styles/default.css" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/menu.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+</head>
+<body>
+    <div id="wraper">
+        <div class="page">
+            <div class="header">
+                <div id="timeDiv">
+                    <img src="images/title.jpg" alt="www.techtution.com" />
+                </div>
+            </div>
+            <div id="menudiv">
+                <ul id="menu">
+                    <li><span><a href="index.html" title="Home">HOME</a></span></li>
+                    <li><span><a href="jquery.html" title="About Jquery">JQUERY</a></span></li>
+                    <li><span><a href="samples.html" title="Jquery and html samples">SAMPLES</a></span></li>
+                    <li><span><a href="downloads.html" title="Downloads">DOWNLOADS</a></span></li>
+                    <li><span><a href="tips.html" title="Jquery tricks">TIPS & TRICKS</a></span></li>
+                    <li><span><a href="htmlcss.html" title="Html with CSS">HTML & CSS</a></span></li>
+                    <li><span><a href="interview.html" title="Interview Qustions">QUESTIONS</a></span></li>
+                    <li><span><a href="contact.html" title="Contact us">CONTACT US</a></span></li>
+                </ul>
+            </div>
+            <div style="width: 100%; border-top: 1px solid #ccccc;">
+                <div class="pagecontent">
+                    <h2>
+                        What is live keyword?</h2>
+                    <p>
+                        We will use a jQuery file but how to know the version of that js file. There are
+                        two way to you can check the current jQuery version.
+                    </p>
+                    <p>
+                        <i>$().jquery;</i> - It Returns a string. Ex: "1.3.1"
+                        <br />
+                        <i>jQuery.fn.jquery;</i> - Also returns string. Ex: "1.3.1"
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <h2>
+                        Difference between document.ready() and window.onload()?</h2>
+                    <p>
+                        We know that code will execute once document is ready and it will not wait untill download all the images on document. Code execute after page loads completely, including images. 
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <h2>
+                        How to use cookies using jQuery?</h2>
+                    <p>
+                    Cookies are used for to store temporary information.
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                        <h2>
+                        Which event will execute first, document.ready or window.load?</h2>
+                    <p>
+                    Cookies are used for to store temporary information.
+                    </p>
+<h2>
+                       <h2>What is the jquery latest version?</h2>
+                    <p>
+                    Cookies are used for to store temporary information.
+                    </p>
+					<h2>How JavaScript and jQuery are different?</h2>
+					<p>
+					JavaScript is a language While jQuery is a library built in the JavaScript language that helps to use the JavaScript language.
+					</p>
+					<h2>What is the basic need to start with jQuery?</h2>
+					<p> To start with jQuery, one need to make reference of it's library.</p>
+					<h2>What does dollar sign ($) means in jQuery?</h2>
+					<p>Dollar Sign is nothing but it's an alias for JQuery. Take a look at below jQuery code.</p>
+					<h2>Can we have multiple document.ready() function on the same page?</h2>
+					<p>YES. We can have any number of document.ready() function on the same page.</p>
+					<h2>What is jQuery.noConflict?</h2>
+					<p>As other client side libraries like MooTools, Prototype can be used with jQuery and they also use $() as their global function and to define variables. This situation creates conflict as $() is used by jQuery and other library as their global function. To overcome from such situations, jQuery has introduced jQuery.noConflict().</p>
+                <h2>Is there any difference between body onload() and document.ready() function?</h2>
+				<p>
+				document.ready() function is different from body onload() function for 2 reasons.
+				<br/><br/>
+				1. We can have more than one document.ready() function in a page where we can have only one body onload function.<br/>
+				2. document.ready() function is called as soon as DOM is loaded where body.onload() function is called when everything gets loaded on the page that includes DOM, images and all associated resources of the page.
+				</p>
+				<h2>What is the difference between .js and .min.js?</h2>
+				<p>jQuery library comes in 2 different versions Production and Deployment. The deployment version is also known as minified version. So .min.js is basically the minified version of jQuery library file. Both the files are same as far as functionality is concerned. but .min.js is quite small in size so it loads quickly and saves bandwidth.
+				</p>
+				<h2>What is a CDN?</h2>
+				<p>A content delivery network or content distribution network (CDN) is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with high availability and high performance.</p>
+				<h2>Which are the popular jQuery CDN? and what is the advantage of using CDN?</h2>
+				<p>There are 3 popular jQuery CDNs.<br/>
+					1. Google<br/>
+					2. Microsoft<br/>
+					3. jQuery.</p>
+				<h2>What are the Advantage of using CDN?</h2>
+				<p>
+				It reduces the load from your server.<br/>
+It saves bandwidth. jQuery framework will load faster from these CDN.<br/>
+The most important benefit is it will be cached, if the user has visited any site which is using jQuery framework from any of these CDN				
+				</p>
+				<h2>What are the fastest selectors in jQuery?</h2>
+				<p>ID and element selectors are the fastest selectors in jQuery.</p>
+				<h2>What are the slow selectors in jQuery?</h2>
+				<p>Class selectors are the slow compare to ID and element.</p>
+				<h2>Which is fast document.getElementByID('txtName') or $('#txtName')?</h2>
+				<p>Native JavaScipt is always fast. jQuery method to select txtName "$('#txtName')" will internally makes a call to document.getElementByID('txtName'). As jQuery is written on top of JavaScript and it internally uses JavaScript only So JavaScript is always fast.</p>
+				<h2>What is the use of jquery .each() function?</h2>
+				<p>The $.each() function is used to iterate over a jQuery object. The $.each() function can be used to iterate over any collection, whether it is an object or an array.</p>
+				<h2>What is the difference between parent() and parents() methods in jQuery?</h2>
+				<p>The basic difference is the parent() function travels only one level in the DOM tree, where parents() function search through the whole DOM tree.</p>
+				<h2>What is the difference between .empty(), .remove() and .detach() methods in jQuery?</h2>
+				<p>All these methods .empty(), .remove() and .detach() are used for removing elements from DOM but they all are different.<br/><br/>
+				.empty(): This method removes all the child element of the matched element where remove() method removes set of matched elements from DOM.<br/><br/>
+				.remove() When you want to remove the element itself, as well as everything inside it. In addition to the elements themselves, all bound events and jQuery data associated with the elements are removed. <br/><br/>
+				.detach(): This method is the same as .remove(), except that .detach() keeps all jQuery data associated with the removed elements. This method is useful when removed elements are to be reinserted into the DOM at a later time. 
+				</p>
+				<h2>Explain .bind() vs .live() vs .delegate() vs .on() ?</h2>
+				<p>All these 4 jQuery methods are used for attaching events to selectors or elements. But they all are different from each other.<br/><br/>
+					.bind(): This is the easiest and quick method to bind events. But the issue with bind() is that it doesn't work for elements added dynamically that matches the same selector. bind() only attach events to the current elements not future element. Above that it also has performance issues when dealing with a large selection.<br/><br/>
+					.live(): This method overcomes the disadvantage of bind(). It works for dynamically added elements or future elements. Because of its poor performance on large pages, this method is deprecated as of jQuery 1.7 and you should stop using it. Chaining is not properly supported using this method.<br/><br/>
+					.delegate(): The .delegate() method behaves in a similar fashion to the .live() method, but instead of attaching the selector/event information to the document, you can choose where it is anchored and it also supports chaining.<br/><br/>
+					.on(): Since live was deprecated with 1.7, so new method was introduced named ".on()". This method provides all the goodness of previous 3 methods and it brings uniformity for attaching event handlers.
+				</p>
+				<h2>What is wrong with this code line "$('#myid.3').text('blah blah!!!');"?</h2>
+				<p>The problem with above statement is that the selectors is having meta characters and to use any of the meta-characters ( such as !"#$%&'()*+,./:;<=>?@[\]^`{|}~ ) as a literal part of a name, it must be escaped with with two backslashes: \\. For example, an element with id="foo.bar", can use the selector $("#foo\\.bar"). 
+					So the correct syntax is,
+<pre>
+$('#myid\\.3').text('blah blah!!!');
+</pre>
+</p>
+<h2>What is difference between prop and attr?</h2>
+
+<p>attr(): Get the value of an attribute for the first element in the set of matched elements. Whereas,.prop(): (Introduced in jQuery 1.6) Get the value of a property for the first element in the set of matched elements. <br/><br/>
+
+Attributes carry additional information about an HTML element and come in name="value" pairs. Where Property is a representation of an attribute in the HTML DOM tree. once the browser parse your HTML code ,corresponding DOM node will be created which is an object thus having properties. <br/><br/>
+
+attr() gives you the value of element as it was defines in the html on page load. It is always recommended to use prop() to get values of elements which is modified via javascript/jquery , as it gives you the original value of an element's current state. Find out more here.
+</p>
+
+				</div>
+                <div id="Login" class="login">
+                    <table cellpadding="10px" style="background: #EFEFEF transperant; width: 100%; height: 100%;">
+                        <tr>
+                            <td colspan="2" style="font-size: 12px; font-weight: bold; text-align: center;">
+                                Subscribe Here
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    User Id</label>
+                            </td>
+                            <td>
+                                <input type="text" id="txtUserId" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <a href="#">Register your mailid here</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="footer">
+                <div>
+                    <p>
+                        <a>Jquery plugin's</a>, <a>Jquery tutorials</a>, <a>Ajax samples</a>, <a>Google apps</a>, 
+                        <a>SEO tips</a>, <a>HTML samples</a>, <a>CSS3</a>, <a>Regular expressions for Jquery</a>,
+                        <a>Web templates</a>
+                    </p>
+                </div>
+                <div style="float:right;">
+                    <p>
+                        &copy; 2013 <a href="#" title="www.techtution.in">www.techtution.in</a> All rights
+                        reserved.<br />
+                        To Advertise Here: contact at +91-9743456222<br />
+                        or Mail to: <a href="mailto:admin@techtution.in">admin@techtution.in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

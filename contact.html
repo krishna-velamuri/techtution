@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>www.Tech Tution.in</title>
+    <link rel="stylesheet" href="styles/default.css" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/menu.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+        });  
+      function validateFields()
+      {
+	var errorMsg="";
+	if($('#txtFrom').val()=="")
+	errorMsg="Name can not be empty.";
+	else if($('#txtMail').val()=="")
+	errorMsg="eMail can not be empty.";
+	if(errorMsg!="")
+	{
+		$('#edits').show();
+		$('#edits').html("<li>"+errorMsg+"</li>");
+		return false;
+        }
+	else
+	{
+		$('#edits').hide();
+		return true;
+	}
+      }	
+    </script>
+</head>
+<body>
+    <div id="wraper">
+        <div class="page">
+            <div class="header">
+                <div id="timeDiv">
+                    <img src="images/title.jpg" alt="www.techtution.com" />
+                </div>
+            </div>
+            <div id="menudiv">
+                <ul id="menu">
+                    <li><span><a href="index.html" title="Home">HOME</a></span></li>
+                    <li><span><a href="jquery.html" title="About Jquery">JQUERY</a></span></li>
+                    <li><span><a href="samples.html" title="Jquery and html samples">SAMPLES</a></span></li>
+                    <li><span><a href="downloads.html" title="Downloads">DOWNLOADS</a></span></li>
+                    <li><span><a href="tips.html" title="Jquery tricks">TIPS & TRICKS</a></span></li>
+                    <li><span><a href="htmlcss.html" title="Html with CSS">HTML & CSS</a></span></li>
+                    <li><span><a href="interview.html" title="Interview Qustions">QUESTIONS</a></span></li>
+                    <li><span><a href="contact.html" title="Contact us">CONTACT US</a></span></li>
+                </ul>
+            </div>
+            <div style="width: 100%; border-top: 1px solid #ccccc;">
+                <div class="pagecontent" style="width: 100%;">
+                <h3 style="margin-left:30px;">CONTACT</h3>
+                    <div class="contactus" style="width: 350px; float: left;">
+                        <h4>
+                            Technical Support
+                        </h4>
+                        E-Mail: support@techtution.in<p>
+                            &nbsp;</p>
+                        <h4>
+                            For Advetisement
+                        </h4>
+                        E-Mail: admin@techtution.in<p>
+                            &nbsp;</p>
+                        <h4>
+                            Business Office</h4>
+                        Brunda Web Solutions<br />
+                        #14, Old sawmill road, Belthur colony,<br />
+                        Kadugodi, Bangalore - 560067.<br />
+                        tel +91 (080) 6450-0542<br />
+                        fax +91 (080) ---------
+                    </div>
+                    <div class="contactus" style="width: 350px; float: right; margin-right: 30px;">
+                        <form id="myform" action="" method="post">
+                        <table cellpadding="0" cellspacing="3">
+                            <tr>
+				<td>
+				&nbsp;
+				</td>
+                                <td>
+                                    <div id="edits" class="errors" style="display: none;">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    From:
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="txtFrom" title="Enter Your Name." class="colorinput"
+                                        maxlength="30" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Email:
+                                </td>
+                                <td>
+                                    <input type="text" name="email" id="txtMail" title="Enter your emai id." class="colorinput"
+                                        maxlength="50" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Mobile:
+                                </td>
+                                <td>
+                                    <input type="text" name="mobile" id="txtMobile" title="Enter Mobile number." class="colorinput"
+                                        maxlength="10" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    Comments:
+                                </td>
+                                <td>
+                                    <textarea name="message" id="txtMiailBody" rows="4" cols="32" style="width: 280px;"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;
+                                </td>
+                                <td style="padding-top: 20px;">
+                                    <center>
+                                        <input type="submit" id="btnSend" value="Send" class="btn btn-primary btn-sm"   onclick="return validateFields();"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="reset" id="btnDiscard" value="Discard" class="btn btn-primary btn-sm" />
+                                    </center>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="padding: 10px 30px;">
+                                    <div class="concatus" style="clear: both; padding-top: 15px; clear: both; float: right;">
+                                        <table>
+                                            <tr class="rating">
+                                                <td style="padding: 0;">
+                                                    Rate this site:
+                                                </td>
+                                                <td>
+                                                    1
+                                                </td>
+                                                <td>
+                                                    2
+                                                </td>
+                                                <td>
+                                                    3
+                                                </td>
+                                                <td>
+                                                    4
+                                                </td>
+                                                <td>
+                                                    5
+                                                </td>
+                                            </tr>
+                                            <tr class="rating">
+                                                <td>
+                                                    &nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="rating" id="rdRating1" />
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="rating" id="rdRating2" />
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="rating" id="rdRating3" />
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="rating" id="rdRating4" />
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="rating" id="rdRating5" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        </form>
+                    </div>
+                    <div class="bottomtext">
+                        <p>
+                            Need you precious comments to improve this site. Please send your requirements and
+                            suggestions to above mail id. You can place your quaries here, will reply with code
+                            as soon as possible.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div>
+                    <p>
+                        <a>Jquery plugin's</a>, <a>Jquery tutorials</a>, <a>Ajax samples</a>, <a>Google apps</a>,
+                        <a>SEO tips</a>, <a>HTML samples</a>, <a>CSS3</a>, <a>Regular expressions for Jquery</a>,
+                        <a>Web templates</a>
+                    </p>
+                </div>
+                <div style="float: right;">
+                    <p>
+                        &copy; 2013 <a href="#" title="www.techtution.in">www.techtution.in</a> All rights
+                        reserved.<br />
+                        To Advertise Here: contact at +91-9743456222<br />
+                        or Mail to: <a href="mailto:admin@techtution.in">admin@techtution.in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

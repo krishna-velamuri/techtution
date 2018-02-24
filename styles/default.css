@@ -1,0 +1,376 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+h2
+{
+    color: #446600;
+    padding-bottom: 5px;
+}
+input
+{
+    /*width: 20px;*/
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.text
+{
+    font-family: Calibri,Arial,Helvetica,Sans-Serif;
+    font-size: 13px;
+    color: #4D4C4C;
+}
+.header
+{
+    height: 120px;
+    border-bottom: 1px solid #880033;
+    text-align: left;
+}
+body
+{
+    background: #F4F4F4;
+    background: url(../images/bg1.jpg) repeat;
+}
+#wraper
+{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    overflow: visible;
+}
+#menudiv
+{
+    width: 100%;
+    height: 26px;
+    float: left;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #880033;
+    z-index: 2;
+}
+#menudiv ul
+{
+    list-style: none;
+    padding-top: 7px;
+    background: #333333;
+    height: 27px;
+}
+#menudiv ul li
+{
+    display: inline;
+    vertical-align: bottom;
+}
+#menudiv ul li span
+{
+}
+#menudiv ul li a
+{
+    font: 12px Arial,Helvetica, Sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 15px 7px 15px;
+    background: #FFF;
+    color: #000;
+}
+#menudiv ul li a:hover, span
+{
+    background: #FF6600;
+    margin-top: 0px;
+    color: #EFE;
+}
+.selected
+{
+    background: #FF6600;
+    color: #C32A6E;
+    font-size: 10px;
+}
+#searchdiv
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 250px;
+    height: 28px;
+    background: #880022;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+.page
+{
+    width: 98%;
+    text-align: center;
+    margin-left: 10px;
+}
+.pagecontent a
+{
+    color: #9BE1FB;
+}
+.page h3
+{
+    color: #C7DFF4;
+    padding-bottom: 7px;
+}
+.pagecontent
+{
+    width: 660px;
+    float: left;
+    padding: 15px 10px 15px 15px;
+    text-align: justify; /*background: #EEEEEE;*/
+    height: auto;
+}
+.pagecontent p
+{
+    font-family: Calibri,Arial,Helvetica,Sans-Serif;
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: #4D4C4C;
+}
+.pagecontent ul
+{
+    padding-left: 15px;
+}
+.login
+{
+    border: 1px dotted #333333;
+    padding: 5px;
+    font: 11px Arial,Hekvetuca,san-serif;
+    float: right;
+    margin: 15px 0px 10px 0px;
+    width: 240px;
+}
+.login input
+{
+    width: 150px;
+    height: 15px;
+    font: 11px Arial,Hekvetuca,san-serif;
+    text-align: left;
+}
+.login img
+{
+    padding-right: 10px;
+}
+.color
+{
+    border: none;
+    width: 400px;
+}
+.color td
+{
+    width: 15px;
+    height: 15px;
+}
+pre
+{
+    -moz-border-radius: 3px 3px 3px 3px;
+    background: none repeat scroll 0 0 #FFF !important;
+    border: 1px dashed #DDDDDD !important;
+    color: #06263C !important;
+    font-size: 11px !important;
+    line-height: 1.6 !important;
+    margin: 0.8em 0 1.2em !important;
+    padding: 5px !important;
+    text-align: left;
+}
+.login ul
+{
+    list-style: none;
+}
+.login ul li
+{
+    padding-top: 5px;
+}
+.login ul li a
+{
+    color: #96B566;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.login ul li a:hover
+{
+    text-decoration: underline;
+}
+.contactus
+{
+    font-family: Helvetica,Sans-Serif,Arial;
+    font-size: 13px;
+    margin: 20px 0px 0px 30px;
+    line-height: 20px;
+    color: #4EB2CA;
+}
+.contactus .colorinput
+{
+    text-align: left;
+    padding: 1px;
+    width: 275px;
+}
+.contactus h4
+{
+    color: #66AAAA;
+}
+.button
+{
+    width: 100px;
+    height: 30px;
+}
+.rating td
+{
+    padding: 1px 5px 1px 5px;
+}
+.footer
+{
+    clear: both;
+    color: #f2ede7;
+    overflow: hidden;
+    padding-top: 10px;
+    background-color: #333333; /* curved border radius */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 0 auto;
+    font: 14px/20px "Trebuchet MS" , Verdana, Helvetica, Arial, sans-serif;
+}
+.footer div
+{
+    width: 45%;
+    float: left;
+    padding: 0 10px;
+}
+.footer div h2
+{
+    margin-top: 0;
+}
+.footer div p
+{
+    font-size: 11px;
+}
+.footer div a
+{
+    color: #AAA;
+    text-decoration: none;
+}
+.footer div a:hover
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.topbutton
+{
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 15px;
+    position: fixed;
+    border: 0;
+}
+.topbutton img
+{
+    border: 0;
+}
+.bottomtext
+{
+    clear: both;
+    width: 95%;
+    margin: 20px 30px;
+    color: #4EB2CA;
+}
+.bottomtext p
+{
+    color: #4EB2CA;
+}
+/* ========================Button Styles======================*/
+.btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary
+{
+    color: #ffffff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+.btn:hover, .btn:focus
+{
+    color: #333333;
+    text-decoration: none;
+}
+.btn-sm
+{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-primary
+{
+    color: #ffffff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.btn
+{
+    display: inline-block;
+    padding: 5px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    height: 30px;
+}
+.errors
+{
+    padding: 10px;
+    color: #FF0000;
+}
+.panel
+{
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    float: right;
+    width: 250px;
+    font-family: "Lobster" , Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.428571429;
+}
+.panel-primary
+{
+    border-color: #428bca;
+}
+.panel-heading
+{
+    background-color: #428bca;
+    border-color: #428bca;
+}
+.panel-title
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.panel-body
+{
+    padding: 15px;
+    text-align:left;
+}
+.panel-body ul
+{
+    list-style:none;
+}
+.panel-body img
+{
+    padding:0px 10px 0px 10px;
+}

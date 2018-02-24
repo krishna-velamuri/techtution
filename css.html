@@ -1,0 +1,55 @@
+                    <h2>
+                        Change CSS using jquery</h2>
+                    <pre>
+  $("#txtName").css("color","#FF0000"); <i>// To change the text color</i>
+                    </pre>
+    $.ajax({
+        type: "POST",
+        url: '/pagename/Methodname?parameter='+parametervalue,
+        success: function () {
+            //write success code
+        }
+        error:function(){
+            //write error code
+        }
+    });
+                    </pre>
+                    <p>
+                        Another method type...
+                    </p>
+                    <pre>                    
+    $.post('/PageName/Methodname',
+    {   
+        DeliveryAddressName: deliveryAddressName,
+        DeliveryAddress1: deliveryAddress1,
+        DeliveryAddress2: deliveryAddress2,
+        DeliveryCity: deliveryCity,
+        DeliveryState: deliveryState,
+        DeliveryZip: deliveryZip,
+        DeliveryPhoneNumber: deliveryPhoneNumber
+    },
+    function (result) {
+            //success part
+        }
+    );
+                    </pre>
+                    <h2>
+                        Properties for Jquery ajax call</h2>
+                    <p>
+                        <ul class="text">
+                            <li>url - The target of the request.</li>
+                            <li>type - The type of HTTP request either: "GET" (Default) or "POST".</li>
+                            <li>async - Set asyncronous to TRUE if you want it to load in background and this will
+                                allow you to run mutiple AJAX requests at the same time. If you set to FALSE the
+                                request will run and then wait for the result before preceeding with the rest of
+                                you code.</li>
+                            <li>data - Specify data you wish to pass with the AJAX call in "{param1: 'value1'}"
+                                format.</li>
+                            <li>dataType - Specify the type of data that is returned: "xml/html/script/json/jsonp".</li>
+                            <li>success - The function that is fired when the AJAX call has completed successfully.</li>
+                            <li>error - The function that is fired when the AJAX call encountered errors.</li>
+                            <li>jsonp - Allows you to specify a callback function when making cross domain AJAX
+                                calls.</li>
+                            <li>timeout - You can also set a timeout on the AJAX call in milliseconds.</li>
+                        </ul>
+                    </p>

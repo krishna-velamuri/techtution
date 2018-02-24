@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>www.Tech Tution.in</title>
+    <link rel="stylesheet" href="styles/default.css" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/menu.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="wraper">
+        <div class="page">
+            <div class="header">
+                <div id="timeDiv">
+                    <img src="images/title.jpg" alt="www.techtution.com" /><a name="pageTop"></a>
+                </div>
+            </div>
+            <div id="menudiv">
+                <ul id="menu">
+                    <li><span><a href="index.html" title="Home">HOME</a></span></li>
+                    <li><span><a href="jquery.html" title="About Jquery">JQUERY</a></span></li>
+                    <li><span><a href="samples.html" title="Jquery and html samples">SAMPLES</a></span></li>
+                    <li><span><a href="downloads.html" title="Downloads">DOWNLOADS</a></span></li>
+                    <li><span><a href="tips.html" title="Jquery tricks">TIPS & TRICKS</a></span></li>
+                    <li><span><a href="htmlcss.html" title="Html with CSS">HTML & CSS</a></span></li>
+                    <li><span><a href="interview.html" title="Interview Qustions">QUESTIONS</a></span></li>
+                    <li><span><a href="contact.html" title="Contact us">CONTACT US</a></span></li>
+                </ul>
+            </div>
+            <div style="width: 100%; border-top: 1px solid #ccccc;">
+                <div class="pagecontent" id="samplesDiv">
+                    <p>
+                        Jquery is simple and easy to learn. Based on given sample you can implement more
+                        logic by combining jquery properties. We can design webforms easily and effectively
+                        using jquery. Following are the basic jquery samples.</p>
+                    <h2>
+                        Show or Hide an element.</h2>
+                    <pre>
+<strong>To hide an element</strong>
+ $("#targetId").hide(); <i>// based on an element id</i>
+ $(".className").hide(); <i>// based on an element class </i>
+ $("div").hide(); <i>// based on an element</i>
+ $("input type[text]").hide(); <i>// based on an element type</i>
+ $("div .className").hide(); <i>// based on an element and an element class </i>
+ <p>
+     &nbsp;</p><strong>To show an element</strong> - Note: use show() instead of hide()
+ $("#targetId").show(); <i>// based on an element id</i>
+ -
+ -
+                </pre>
+                    <h2>
+                        Enable or Disable an element.</h2>
+                    <pre>
+<strong>To Enable an element</strong>
+ $("#targetId").attr("disabled",false);
+ $(".className").hide();
+ $("div").hide();
+ $("input type[text]").hide();
+ $("div .className").hide();
+ <p>
+     &nbsp;</p><strong>To Disable an element</strong> - Note: use disabled instead of enabled
+ $("#targetId").attr("disabled",true); or  $("#targetId").attr("disabled","disabled");
+ -
+ -
+ <strong>Negitive coding</strong>
+ $("#targetId").attr("disabled",false);
+                </pre>
+                    <h2>
+                        Set/Get control value</h2>
+                    <pre>
+ $("#txtName").val(); <i>// To get control value based on control id.</i>
+ $("#txtName").val("Sampletext"); <i>// To set control value based on control id.</i>
+ $("#txtName").val(''); <i>// To clear the control value.</i>
+ $("#txtName").val($("#txtUser").val()); <i>// To set control value with another control
+     value.</i>
+                </pre>
+                </div>
+                <div class="login" style="width: 150px;">
+                    <ul>
+                        <li><a href="#" onclick="launchpage('AJAX');">Ajax methos</a></li>
+                        <li><a href="#" onclick="launchpage('ANIMATION');">Animations</a></li>
+                        <li><a href="#" onclick="launchpage('BASICS');">Basic operations</a></li>
+                        <li><a href="#" onclick="launchpage('BROWSER');">Browsers</a></li>
+                        <li><a href="#" onclick="launchpage('CSS');">CSS related</a></li>
+                        <li><a href="#" onclick="launchpage('CALENDER');">Calendar</a></li>
+                        <li><a href="#" onclick="launchpage('DYNAMIC');">Dynamic data</a></li>
+                        <li><a href="#" onclick="launchpage('DATE');">Date and Time</a></li>
+                        <li><a href="#" onclick="launchpage('FUNCTIONS');">Functions</a></li>
+                        <li><a href="#" onclick="launchpage('MENU');">Menu samples</a></li>
+                        <li><a href="#" onclick="launchpage('PRINT');">Printing</a></li>
+                        <li><a href="#" onclick="launchpage('OTHER');">Others</a></li>
+                    </ul>
+                </div>
+                <!--<p>
+                    &nbsp;</p>
+                <div id="Login" class="login">
+                </div>-->
+            </div>
+            <div class="footer">
+                <div>
+                    <p>
+                        <a>Jquery plugin's</a>, <a>Jquery tutorials</a>, <a>Ajax samples</a>, <a>Google apps</a>,
+                        <a>SEO tips</a>, <a>HTML samples</a>, <a>CSS3</a>, <a>Regular expressions for Jquery</a>,
+                        <a>Web templates</a>
+                    </p>
+                </div>
+                <div style="float: right;">
+                    <p>
+                        &copy; 2013 <a href="#" title="www.techtution.in">www.techtution.in</a> All rights
+                        reserved.<br />
+                        To Advertise Here: contact at +91-9743456222<br />
+                        or Mail to: <a href="mailto:admin@techtution.in">admin@techtution.in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topbutton" title="Top">
+        <a href="#pageTop">
+            <img src="images/top.png" alt="TOP" /></a></div>
+</body>
+</html>
